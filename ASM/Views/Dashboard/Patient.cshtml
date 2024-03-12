@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Patient";
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+<style>
+    .container-fluid {
+        background-image: url("/img/dashboard.jpg");
+        background-size: cover;
+    }
+</style>
+
+@{
+    var username = Context.Session.GetString("username");
+}
+
+<div class="container-fluid opacity-75 text-white rounded-5" style="display: flex; flex-direction: column; height: 80vh;">
+    <h1 class="text-center" style="font-weight: 900; position: sticky; top: 0; margin-top: 25px; padding-top: 25px;">
+        <span class="bg-white p-1 rounded text-dark" style="font-weight: 900;">Welcome @username.ToUpper() Let's begin</span>
+    </h1>
+</div>
+
+

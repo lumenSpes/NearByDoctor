@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Doctor";
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+
+@{
+    var username = Context.Session.GetString("username");
+}
+
+<div class="container-fluid bg-dark
+opacity-25 text-white rounded-5" style="padding:20vh;">
+
+    <h1 class="text-center">
+        Welcome
+        <span class="bg-white p-1 rounded text-dark"
+              style="font-weight: 900;">@username.ToUpper()</span>
+    </h1>
+    <br />
+    <p class="text-center">Lets begin</p>
+</div>

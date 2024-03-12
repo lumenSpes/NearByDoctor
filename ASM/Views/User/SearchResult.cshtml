@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "SearchResult";
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Designation</th>
+            <th scope="col">CategoryName</th>
+            <th scope="col">HospitalName</th>
+            @*
+            <th scope="col">Latitude</th>
+            <th scope="col">Longitude</th>*@
+            <th scope="col">LocationName</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Designation</td>
+                <td>@item.CatagoryName</td>
+                <td>@item.HospitalName</td>
+                @*<td>@item.Lat</td>
+                <td>@item.Long</td>*@
+                <td>@item.LocationName</td>
+                <td><a href="/appointment/book/@item.Id" class="btn btn-primary">Get Appointment</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div id="map" style="width: 100%; height: 400px; margin-top: 20px;"></div>
+
+<!-- Include Leaflet script after the table to ensure it doesn't block rendering -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<script>
+    // Initialize the map and bind it to the 'map' div element
+    var map = L.map('map').setView([23.8479, 90.2577], 8);
+
+    // Add a tile layer from OpenStreetMap
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Assume that 'jsModel' is properly serialized to JSON in your C# code
+    var jsModel = @Html.Raw(Json.Serialize(Model));
+
+    // Check if 'jsModel' is an array
+    if (Array.isArray(jsModel)) {
+        jsModel.forEach(function (item) {
+            L.marker([item.lat, item.long]) // Use lowercase lat and long
+                .addTo(map)
+                .bindPopup(item.name + '<br>' + item.locationName)
+                .openPopup();
+        });
+    }
+</script>

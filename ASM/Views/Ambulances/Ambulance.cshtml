@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Ambulance";
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+<div class="container">
+    <h1> Ambulance Details</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">LicenceNo</th>
+                <th scope="col">Rate</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @try{
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.LicenceNo</td>
+                        <td>@item.Rate</td>
+                        <td>
+                            <a class="btn btn-danger" href="/ambulance/cancel/@item.Id">Cancel</a>
+                        </td>
+                    </tr>
+                }
+            }
+            catch(Exception e)
+            {
+                <div class="section text-center text-danger my-2">
+                    <h3>You Didn't book any Ambulance</h3>
+                </div>
+            }
+          
+        </tbody>
+    </table>
+</div>

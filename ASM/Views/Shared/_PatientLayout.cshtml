@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Nearby Doctor Search</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ASM.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="~/css/site.css" rel="stylesheet">
+    <link href="~/lib/leaflet/leaflet.css" rel="stylesheet" />
+    <link href="~/lib/leaflet/leaflet.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ac66cde82a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- ======= Header ======= -->
+    <header>
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto"><a class="text-decoration-none" href="index.html">Nearby Doctor Search</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar order-last order-lg-0 px-3">
+                <ul>
+                    <li><a class="nav-link scrollto fs-6" href="/dashboard/patient">Home</a></li>
+                    <li><a class="nav-link scrollto fs-6" href="/patient/appointment">My <br /> Appointment</a></li>
+                    <li><a class="nav-link scrollto fs-6" href="/appointment/create">Get <br /> Appointment</a></li>
+                    <li><a class="nav-link scrollto fs-6" href="/search/doctor">Get <br /> Nearby Doctor</a></li>
+                    <li><a class="nav-link scrollto fs-6" href="/ambulance/nearby">Nearby <br /> Ambulance</a></li>
+                    <li><a class="nav-link scrollto fs-6" href="/ambulance/my">My <br /> Ambulance</a></li>
+                    <li class="dropdown">
+                        <a class="text-decoration-none fs-6" href="#"><span>Settings</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="/patient/updateprofile">Profile</a></li>
+                            <li><a href="/patient/changepassword">Change Password</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+            <div class="bx-log-out">
+            <a href="/logout" class="btn btn-primary rounded-5 fs-5">Log Out</a>
+            </div>
+        </div>
+    </header><!-- End Header -->
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    @*footer*@
+
+    <!-- ======= Footer ======= -->
+    <footer class="border-top text-white bg-dark">
+        <div class="icons d-flex justify-content-center m-2">
+            <a href="#"><i class="fs-3 fa-brands fa-facebook p-5"></i></a>
+            <a href="#"><i class="fs-3 fa-brands fa-twitter p-5"></i></a>
+            <a href="#"><i class="fs-3 fa-brands fa-linkedin p-5"></i></a>
+        </div>
+        <div class="copyright text-center pb-5">
+            <h1>&copy; NearByDoctorSerach - @DateTime.Now.Year</h1>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

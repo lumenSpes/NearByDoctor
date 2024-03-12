@@ -1,0 +1,1098 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\ambulances\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\ambulances\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\ambulancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\ambulancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\appointments\\patientappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\appointments\\patientappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\ambulances\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\ambulances\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\ambulances\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\ambulances\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\ambulances\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\ambulances\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\ambulances\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\ambulances\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\ambulances\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\ambulances\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\doctors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\doctors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\doctors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\doctors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\doctors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\doctors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\doctors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\doctors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\doctors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\doctors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\hospitals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\hospitals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\hospitalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\hospitalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\hospitals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\hospitals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\hospitals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\hospitals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\hospitals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\hospitals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\locations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\locations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\locations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\locations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\locations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\locations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\shared\\_doctorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\shared\\_doctorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\ambulances\\ambulance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\ambulances\\ambulance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\appointments\\printappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\appointments\\printappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Migrations\\20240117065916_initdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ASM\\Migrations\\20240117065916_initdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\appointments\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\appointments\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\user\\doctorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\user\\doctorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\views\\user\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\views\\user\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|g:\\codes\\adv c#\\work\\asm\\asm\\asm\\migrations\\20240117070124_initdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC63600E-1FBF-4310-952B-2467B42D598C}|ASM\\ASM.csproj|solutionrelative:asm\\migrations\\20240117070124_initdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Ambulances\\Edit.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Edit.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Ambulances\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:53:39.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Ambulances\\Create.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Create.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Ambulances\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:53:05.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAiwEcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T17:46:26.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AmbulancesController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\AmbulancesController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\AmbulancesController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\AmbulancesController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\AmbulancesController.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAIwLAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T10:00:37.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Ambulances\\Delete.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Delete.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Ambulances\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAowNAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Search.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Ambulances\\Search.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Search.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Ambulances\\Search.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Appointments\\Create.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\Create.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Appointments\\Create.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:57:46.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientAppointment.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\PatientAppointment.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Appointments\\PatientAppointment.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\PatientAppointment.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Appointments\\PatientAppointment.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\CategoriesController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAwwIUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T18:38:44.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:39:35.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:40:02.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:40:54.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Ambulances\\Index.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Index.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Ambulances\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Ambulances\\Details.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Details.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Ambulances\\Details.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:41:30.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Doctors\\Create.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Create.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Doctors\\Create.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwBsAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:12:44.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Hospitals\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Hospitals\\Create.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Hospitals\\Create.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Hospitals\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:05:58.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Hospitals\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Hospitals\\Details.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Hospitals\\Details.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Hospitals\\Details.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:06:28.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Hospitals\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Hospitals\\Delete.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Hospitals\\Delete.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Hospitals\\Delete.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:07:02.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Doctors\\Index.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Index.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Doctors\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\DoctorsController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\DoctorsController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T18:11:06.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Doctors\\Details.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Details.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Doctors\\Details.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADUAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:13:08.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Doctors\\Edit.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Edit.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Doctors\\Edit.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:13:38.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Doctors\\Delete.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Doctors\\Delete.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Doctors\\Delete.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T18:14:46.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Locations\\Details.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Details.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Locations\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T17:57:06.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\LocationsController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\LocationsController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwCwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Locations\\Delete.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Delete.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Locations\\Delete.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T17:59:21.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HospitalsController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\HospitalsController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\HospitalsController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\HospitalsController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\HospitalsController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Locations\\Edit.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Edit.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Locations\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T17:58:22.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Locations\\Create.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Create.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Locations\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-18T17:57:32.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Hospitals\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Hospitals\\Index.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Hospitals\\Index.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Hospitals\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Appointments\\Index.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\Index.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Appointments\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Program.cs",
+              "RelativeDocumentMoniker": "ASM\\Program.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Program.cs",
+              "RelativeToolTip": "ASM\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAWwBIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_DoctorLayout.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Shared\\_DoctorLayout.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Shared\\_DoctorLayout.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Shared\\_DoctorLayout.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Shared\\_DoctorLayout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:35.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\_ViewStart.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ASM\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:35.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Locations\\Index.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Locations\\Index.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Locations\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20240117070124_initdb2.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Migrations\\20240117070124_initdb2.cs",
+              "RelativeDocumentMoniker": "ASM\\Migrations\\20240117070124_initdb2.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Migrations\\20240117070124_initdb2.cs",
+              "RelativeToolTip": "ASM\\Migrations\\20240117070124_initdb2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T09:05:30.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Book.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Book.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Book.cs",
+              "RelativeToolTip": "ASM\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:59:44.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Ambulance.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Ambulance.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Ambulance.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Ambulance.cs",
+              "RelativeToolTip": "ASM\\Models\\Ambulance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Ambulance.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Ambulance.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Ambulances\\Ambulance.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Ambulances\\Ambulance.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Ambulances\\Ambulance.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PrintAppointments.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\PrintAppointments.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Appointments\\PrintAppointments.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\PrintAppointments.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Appointments\\PrintAppointments.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:35.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Patient.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Patient.cs",
+              "RelativeToolTip": "ASM\\Models\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AppointmentDTO.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\DTOs\\AppointmentDTO.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\DTOs\\AppointmentDTO.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\DTOs\\AppointmentDTO.cs",
+              "RelativeToolTip": "ASM\\Models\\DTOs\\AppointmentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Location.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Location.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Location.cs",
+              "RelativeToolTip": "ASM\\Models\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Hospital.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Hospital.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Hospital.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Hospital.cs",
+              "RelativeToolTip": "ASM\\Models\\Hospital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Doctor.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Doctor.cs",
+              "RelativeToolTip": "ASM\\Models\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Category.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Category.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Category.cs",
+              "RelativeToolTip": "ASM\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Admin.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Admin.cs",
+              "RelativeToolTip": "ASM\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:59:19.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Payment.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Payment.cs",
+              "RelativeToolTip": "ASM\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240117065916_initdb2.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Migrations\\20240117065916_initdb2.cs",
+              "RelativeDocumentMoniker": "ASM\\Migrations\\20240117065916_initdb2.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Migrations\\20240117065916_initdb2.cs",
+              "RelativeToolTip": "ASM\\Migrations\\20240117065916_initdb2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:59:16.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "ASM\\Models\\Appointment.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Models\\Appointment.cs",
+              "RelativeToolTip": "ASM\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ASM\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ASM\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-17T06:37:36.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\UserController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\HomeController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\DashboardController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "site.css",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ASM\\wwwroot\\css\\site.css",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ASM\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAJ4BAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-01-17T06:37:36.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\User\\Register.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "ASM\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\User\\Login.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "ASM\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Pay.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\Pay.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\Appointments\\Pay.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\Appointments\\Pay.cshtml",
+              "RelativeToolTip": "ASM\\Views\\Appointments\\Pay.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "site.js",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ASM\\wwwroot\\js\\site.js",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ASM\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-01-17T06:37:36.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DoctorProfile.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\User\\DoctorProfile.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\User\\DoctorProfile.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\User\\DoctorProfile.cshtml",
+              "RelativeToolTip": "ASM\\Views\\User\\DoctorProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "SearchResult.cshtml",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\User\\SearchResult.cshtml",
+              "RelativeDocumentMoniker": "ASM\\Views\\User\\SearchResult.cshtml",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Views\\User\\SearchResult.cshtml",
+              "RelativeToolTip": "ASM\\Views\\User\\SearchResult.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-17T06:37:36.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "ASM\\Controllers\\PatientsController.cs",
+              "ToolTip": "G:\\codes\\adv c#\\Work\\ASM\\ASM\\ASM\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "ASM\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T06:37:36.185Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

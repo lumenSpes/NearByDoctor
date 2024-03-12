@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ASM.Models.DTOs.AppointmentDTO>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+
+<div class="container">
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <h3 class="text">Appointments Index</h3>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th class="text-center">Date</th>
+                <th class="text-center">Patient Name</th>
+                <th class="text-center">Category Name</th>
+                <th class="text-center">Hospital Name</th>
+                <th class="text-center">Location Name</th>
+                <th class="text-center">Note</th>
+                <th class="text-center">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @if (item.Date.Date == DateTime.Now.Date || item.Date.Date == DateTime.Now.Date.AddDays(1))
+                {
+                    <tr>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.Date)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.PatientName)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.CategoryName)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.HospitalName)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.LocationName)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.Note)</td>
+                        <td class="text-center">
+                            <a href="/pay/@item.Id" class="btn btn-primary">Pay Now</a>
+                            <a href="/doctor/delete-appointment/@item.Id" class="btn btn-danger">Cancel</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <div class="text-center mt-4">
+        <a href="/appointments/print" class="btn btn-success">Print</a>
+    </div>
+</div>

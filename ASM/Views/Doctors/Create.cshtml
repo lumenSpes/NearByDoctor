@@ -1,0 +1,127 @@
+﻿@model ASM.Models.Doctor
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <form asp-action="Create" class="needs-validation" novalidate>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">Name</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Designation" class="control-label">Designation</label>
+                    <input asp-for="Designation" class="form-control" />
+                    <span asp-validation-for="Designation" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="CategoryId" class="control-label">Category</label>
+                    <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories"></select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="LoacationId" class="control-label">Location</label>
+                    <select asp-for="LoacationId" class="form-control" asp-items="ViewBag.Locations" onchange="FillHospitals(this,'lstHospital')"></select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="HospitalId" class="control-label">Hospital</label>
+                    <select asp-for="HospitalId" class="form-control" asp-items="ViewBag.Hospitals" id="lstHospital"></select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Review" class="control-label">Review</label>
+                    <input asp-for="Review" class="form-control" />
+                    <span asp-validation-for="Review" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Fee" class="control-label">Fee</label>
+                    <input asp-for="Fee" class="form-control" />
+                    <span asp-validation-for="Fee" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label">UserName</label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label">Password</label>
+                    <input type="password" asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Lat" class="control-label">Latitude</label>
+                    <input asp-for="Lat" class="form-control" />
+                    <span asp-validation-for="Lat" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Long" class="control-label">Longitude</label>
+                    <input asp-for="Long" class="form-control" />
+                    <span asp-validation-for="Long" class="text-danger"></span>
+                </div>
+
+                <div class="form-group text-center">
+                    <input type="submit" value="Create" class="btn btn-primary my-2" />
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script type="text/javascript">
+        function FillHospitals(lstLocationCtrl, lstHospitalId) {
+            var lstHospitals = $("#" + lstHospitalId);
+            lstHospitals.empty();
+
+            lstHospitals.append($('<option/>',
+                {
+                    value: null,
+                    text: "Select Hospital"
+                }));
+
+            var selectedLocation = lstLocationCtrl.options[lstLocationCtrl.selectedIndex].value;
+
+            if (selectedLocation != null && selectedLocation != '') {
+                $.getJSON('@Url.Action("GetHospitalsByLocation")', { LocationId: selectedLocation }, function (hospitals) {
+                    if (hospitals != null && !jQuery.isEmptyObject(hospitals)) {
+                        $.each(hospitals, function (index, hospital) {
+                            lstHospitals.append($('<option/>',
+                                {
+                                    value: hospital.value,
+                                    text: hospital.text
+                                }));
+                        });
+                    };
+                });
+            }
+            return;
+        }
+
+
+    </script>
+}

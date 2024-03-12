@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+
+
+<div class="container">
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th class="text-center">License Number</th>
+                <th class="text-center">Rate</th>
+                <th class="text-center">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-center">@item.LicenceNo</td>
+                    <td class="text-center">@item.Rate</td>
+                    <td class="text-center">
+                        <a href="/ambulance/book/@item.Id" class="btn btn-primary">Book Now</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+

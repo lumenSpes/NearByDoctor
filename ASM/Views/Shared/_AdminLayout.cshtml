@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ASM.styles.css" asp-append-version="true" />
+    
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="~/css/site.css" rel="stylesheet">
+    <link href="~/lib/leaflet/leaflet.css" rel="stylesheet" />
+    <link href="~/lib/leaflet/leaflet.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Add this in the head section -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy7Nl3PjUuWf1lEv0lcZl4iARgB1Jw5h9+">
+    <script src="https://kit.fontawesome.com/ac66cde82a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- ======= Header ======= -->
+    <div class="container d-flex align-items-center">
+
+        <h1 class="logo me-auto"><a class="text-decoration-none" href="/dashboard/admin">Nearby Doctor Search</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar order-last order-lg-0 px-3">
+            <ul>
+                <li><a class="nav-link scrollto fs-4" href="/dashboard/admin">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="text-decoration-none fs-4"><span>Location</span></a>
+                    <ul>
+                        <li><a class="nav-link scrollto fs-4" href="/location/index">All Location</a></li>
+                        <li><a class="nav-link scrollto fs-4" href="/location/create">Create Location</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="text-decoration-none fs-4"><span>Hospital</span></a>
+                    <ul>
+                        <li><a class="nav-link scrollto fs-4" href="/hospital/index">All Hospital</a></li>
+                        <li><a class="nav-link scrollto fs-4" href="/hospital/create">Create Hospital</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="text-decoration-none fs-4"><span>Doctor</span></a>
+                    <ul>
+                        <li><a class="nav-link scrollto fs-4" href="/doctor/index">All Doctor</a></li>
+                        <li><a class="nav-link scrollto fs-4" href="/doctor/create">Create Doctor</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="text-decoration-none fs-4"><span>Category</span></a>
+                    <ul>
+                        <li><a class="nav-link scrollto fs-4" href="/category/index">All Category</a></li>
+                        <li><a class="nav-link scrollto fs-4" href="/category/create">Create Category</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="text-decoration-none fs-4"><span>Ambulance</span></a>
+                    <ul>
+                        <li><a class="nav-link scrollto fs-4" href="/ambulance/index">All Ambulance</a></li>
+                        <li><a class="nav-link scrollto fs-4" href="/ambulance/create">Create Ambulance</a></li>
+                    </ul>
+                </li>
+                @*
+                <li class="dropdown">
+                <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="dropdown">
+                <a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Drop Down 2</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+                </ul>
+                </li>
+                *@
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+        <div class="logout logout-primary pt-2">
+            <a href="/logout" class="btn btn-primary rounded-5 fs-5 ">Log Out</a>
+            </div>
+        
+    </div>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <footer class="border-top text-white bg-dark">
+        <div class="icons d-flex justify-content-center m-2">
+            <a href="#"><i class="fs-3 fa-brands fa-facebook p-5"></i></a>
+            <a href="#"><i class="fs-3 fa-brands fa-twitter p-5"></i></a>
+            <a href="#"><i class="fs-3 fa-brands fa-linkedin p-5"></i></a>
+        </div>
+        <div class="copyright text-center pb-5">
+            <h1>&copy; NearByDoctorSerach - @DateTime.Now.Year</h1>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy7Nl3PjUuWf1lEv0lcZl4iARgB1Jw5h9+" crossorigin="anonymous"></script>
+
+    <script src="~/js/site.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

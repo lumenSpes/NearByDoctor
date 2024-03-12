@@ -1,0 +1,56 @@
+﻿@model ASM.Models.Doctor
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+
+<div class="card mt-4">
+    <div class="card-body">
+        <h4 class="card-title">Doctor</h4>
+        <hr />
+
+        <dl class="row">
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Name)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Name)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Designation)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Designation)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LoacationId)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.LoacationId)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Review)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Review)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Fee)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Fee)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Email)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Email)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Lat)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Lat)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Long)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Long)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.UserName)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.UserName)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Password)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Password)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Category)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Category.Id)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Hospital)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Hospital.Id)</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-4 d-flex justify-content-center">
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+</div>
+

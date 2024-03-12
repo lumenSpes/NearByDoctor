@@ -1,0 +1,42 @@
+﻿@model ASM.Models.Ambulance
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="form-container col-md-6 mx-auto">
+
+        <form asp-action="Edit" class="needs-validation" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-3">
+                <label for="LocationId" class="form-label">Location ID</label>
+                <input type="text" class="form-control" id="LocationId" asp-for="LocationId" required>
+                <div class="invalid-feedback">
+                    Please provide a valid Location ID.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="Rate" class="form-label">Rate</label>
+                <input type="text" class="form-control" id="Rate" asp-for="Rate" required>
+                <div class="invalid-feedback">
+                    Please provide a valid Rate.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="LicenceNo" class="form-label">Licence Number</label>
+                <input type="text" class="form-control" id="LicenceNo" asp-for="LicenceNo" required>
+                <div class="invalid-feedback">
+                    Please provide a valid Licence Number.
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+</div>

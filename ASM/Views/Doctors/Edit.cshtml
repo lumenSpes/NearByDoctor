@@ -1,0 +1,85 @@
+﻿@model ASM.Models.Doctor
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="form-container col-md-6 mx-auto">
+
+        <form asp-action="Edit" class="needs-validation" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-3">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" asp-for="Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Designation" class="form-label">Designation</label>
+                <input type="text" class="form-control" id="Designation" asp-for="Designation" />
+                <span asp-validation-for="Designation" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="CategoryId" class="form-label">Category</label>
+                <select class="form-control" id="CategoryId" asp-for="CategoryId" asp-items="ViewBag.Catagories"></select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="HospitalId" class="form-label">Hospital</label>
+                <select class="form-control" id="HospitalId" asp-for="HospitalId" asp-items="ViewBag.Locations"></select>
+                <span asp-validation-for="HospitalId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Review" class="form-label">Review</label>
+                <input type="text" class="form-control" id="Review" asp-for="Review" />
+                <span asp-validation-for="Review" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Fee" class="form-label">Fee</label>
+                <input type="text" class="form-control" id="Fee" asp-for="Fee" />
+                <span asp-validation-for="Fee" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="Email" asp-for="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="UserName" class="form-label">User Name</label>
+                <input type="text" class="form-control" id="UserName" asp-for="UserName" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Password" class="form-label">Password</label>
+                <input type="text" class="form-control" id="Password" asp-for="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Lat" class="form-label">Latitude</label>
+                <input type="text" class="form-control" id="Lat" asp-for="Lat" />
+                <span asp-validation-for="Lat" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Long" class="form-label">Longitude</label>
+                <input type="text" class="form-control" id="Long" asp-for="Long" />
+                <span asp-validation-for="Long" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form> 
+    </div>
+</div>
+

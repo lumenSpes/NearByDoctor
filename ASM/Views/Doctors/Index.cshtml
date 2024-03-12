@@ -1,0 +1,72 @@
+﻿@model IEnumerable<ASM.Models.DTOs.DoctorDTO>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th class="text-center">@Html.DisplayNameFor(model => model.Name)</th>
+                <th class="text-center">@Html.DisplayNameFor(model => model.Designation)</th>
+                <th class="text-center">@Html.DisplayNameFor(model => model.Email)</th>
+                <th class="text-center">@Html.DisplayNameFor(model => model.UserName)</th>
+                <th class="text-center">@Html.DisplayNameFor(model => model.CatagoryName)</th>
+                <th class="text-center">@Html.DisplayNameFor(model => model.HospitalName)</th>
+                <th class="text-center">@Html.DisplayNameFor(model => model.LocationName)</th>
+                <th class="text-center"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-center">@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td class="text-center">@Html.DisplayFor(modelItem => item.Designation)</td>
+                    <td class="text-center">@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td class="text-center">@Html.DisplayFor(modelItem => item.UserName)</td>
+                    <td class="text-center">@Html.DisplayFor(modelItem => item.CatagoryName)</td>
+                    <td class="text-center">@Html.DisplayFor(modelItem => item.HospitalName)</td>
+                    <td class="text-center">@Html.DisplayFor(modelItem => item.LocationName)</td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info btn-sm">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-secondary btn-sm">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Create a div element for the map with fixed dimensions -->
+<div id="map" style="width: 100%; height: 400px; margin-top: 20px;"></div>
+
+<!-- Include Leaflet script after the table to ensure it doesn't block rendering -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<script>
+    // Initialize the map and bind it to the 'map' div element
+    var map = L.map('map').setView([23.8479, 90.2577], 8);
+
+    // Add a tile layer from OpenStreetMap
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Assume that 'jsModel' is properly serialized to JSON in your C# code
+    var jsModel = @Html.Raw(Json.Serialize(Model));
+
+    // Check if 'jsModel' is an array
+    if (Array.isArray(jsModel)) {
+        jsModel.forEach(function (item) {
+            L.marker([item.lat, item.long]) // Use lowercase lat and long
+                .addTo(map)
+                .bindPopup(item.name + '<br>' + item.locationName)
+                .openPopup();
+        });
+    }
+</script>
